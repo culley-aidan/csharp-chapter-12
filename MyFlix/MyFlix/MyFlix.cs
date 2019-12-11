@@ -16,5 +16,16 @@ namespace MyFlix
         {
             InitializeComponent();
         }
+
+        private void btnFinished_Click(object sender, EventArgs e)
+        {
+            lblPrice.Text = (lstSelections.SelectedItems.Count * 1.99).ToString("C");
+            lblPrice.Visible = true;
+        }
+
+        private void lstSelections_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblPrice.Visible = false;
+        }
     }
 }

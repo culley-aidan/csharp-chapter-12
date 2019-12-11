@@ -31,6 +31,7 @@
             this.lstSelections = new System.Windows.Forms.ListBox();
             this.lblInstructions = new System.Windows.Forms.Label();
             this.btnFinished = new System.Windows.Forms.Button();
+            this.lblPrice = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lstSelections
@@ -45,8 +46,10 @@
             "Movie Six"});
             this.lstSelections.Location = new System.Drawing.Point(12, 12);
             this.lstSelections.Name = "lstSelections";
+            this.lstSelections.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lstSelections.Size = new System.Drawing.Size(120, 82);
             this.lstSelections.TabIndex = 0;
+            this.lstSelections.SelectedIndexChanged += new System.EventHandler(this.lstSelections_SelectedIndexChanged);
             // 
             // lblInstructions
             // 
@@ -65,12 +68,24 @@
             this.btnFinished.TabIndex = 2;
             this.btnFinished.Text = "Finish";
             this.btnFinished.UseVisualStyleBackColor = true;
+            this.btnFinished.Click += new System.EventHandler(this.btnFinished_Click);
+            // 
+            // lblPrice
+            // 
+            this.lblPrice.AutoSize = true;
+            this.lblPrice.Location = new System.Drawing.Point(223, 75);
+            this.lblPrice.Name = "lblPrice";
+            this.lblPrice.Size = new System.Drawing.Size(37, 13);
+            this.lblPrice.TabIndex = 3;
+            this.lblPrice.Text = "$X.XX";
+            this.lblPrice.Visible = false;
             // 
             // MyFlix
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.btnFinished);
             this.Controls.Add(this.lblInstructions);
             this.Controls.Add(this.lstSelections);
@@ -86,6 +101,7 @@
         private System.Windows.Forms.ListBox lstSelections;
         private System.Windows.Forms.Label lblInstructions;
         private System.Windows.Forms.Button btnFinished;
+        private System.Windows.Forms.Label lblPrice;
     }
 }
 
