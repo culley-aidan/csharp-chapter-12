@@ -16,5 +16,11 @@ namespace CarDealer
         {
             InitializeComponent();
         }
+
+        private void btnSelect_Click(object sender, EventArgs e)
+        {
+            Form infofrm = new View();
+            infofrm.Visible = true;
+        }
     }
 }
