@@ -2,7 +2,7 @@
 C# Programming Chapter 12
 
 ## TODO
-- [ ] - Guided - BedAndBreakfast
+- [X] - Guided - BedAndBreakfast
 - [ ] - 2 FiveColors
 - [ ] - 3 FiveColors2
 - [ ] - 4 MyFlix

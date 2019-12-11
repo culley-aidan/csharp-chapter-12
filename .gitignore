@@ -1,0 +1,13 @@
+
+BedAndBreakfast/.vs/BedAndBreakfast/v16/.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.config
+*.exe
+*.pdb
+*.resources
+BedAndBreakfast/BedAndBreakfast/obj/Debug/BedAndBreakfast.csproj.FileListAbsolute.txt
+*.cache
+BedAndBreakfast/BedAndBreakfast/Properties/AssemblyInfo.cs
