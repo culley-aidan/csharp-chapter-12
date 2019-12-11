@@ -34,9 +34,10 @@
             // welcomeLabel
             // 
             this.welcomeLabel.AutoSize = true;
-            this.welcomeLabel.Location = new System.Drawing.Point(60, 30);
+            this.welcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeLabel.Location = new System.Drawing.Point(20, 30);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(102, 13);
+            this.welcomeLabel.Size = new System.Drawing.Size(248, 29);
             this.welcomeLabel.TabIndex = 0;
             this.welcomeLabel.Text = "Welcome to Bailey\'s";
             // 
