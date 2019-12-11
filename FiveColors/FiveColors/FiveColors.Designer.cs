@@ -37,6 +37,7 @@
             // 
             // btnColorOne
             // 
+            this.btnColorOne.ForeColor = System.Drawing.Color.Blue;
             this.btnColorOne.Location = new System.Drawing.Point(13, 13);
             this.btnColorOne.Name = "btnColorOne";
             this.btnColorOne.Size = new System.Drawing.Size(75, 23);
@@ -47,6 +48,7 @@
             // 
             // btnColorTwo
             // 
+            this.btnColorTwo.ForeColor = System.Drawing.Color.Black;
             this.btnColorTwo.Location = new System.Drawing.Point(13, 43);
             this.btnColorTwo.Name = "btnColorTwo";
             this.btnColorTwo.Size = new System.Drawing.Size(75, 23);
@@ -57,6 +59,7 @@
             // 
             // btnColorThree
             // 
+            this.btnColorThree.ForeColor = System.Drawing.Color.Red;
             this.btnColorThree.Location = new System.Drawing.Point(13, 73);
             this.btnColorThree.Name = "btnColorThree";
             this.btnColorThree.Size = new System.Drawing.Size(75, 23);
@@ -67,6 +70,7 @@
             // 
             // btnColorFour
             // 
+            this.btnColorFour.ForeColor = System.Drawing.Color.Brown;
             this.btnColorFour.Location = new System.Drawing.Point(13, 103);
             this.btnColorFour.Name = "btnColorFour";
             this.btnColorFour.Size = new System.Drawing.Size(75, 23);
@@ -77,6 +81,7 @@
             // 
             // btnColorFive
             // 
+            this.btnColorFive.ForeColor = System.Drawing.Color.White;
             this.btnColorFive.Location = new System.Drawing.Point(13, 133);
             this.btnColorFive.Name = "btnColorFive";
             this.btnColorFive.Size = new System.Drawing.Size(75, 23);

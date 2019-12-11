@@ -18,23 +18,23 @@ namespace FiveColors
         }
         private void btnColorOne_Click(object sender, EventArgs e)
         {
-
+            ActiveForm.BackColor = Color.Blue;
         }
         private void btnColorTwo_Click(object sender, EventArgs e)
         {
-
+            ActiveForm.BackColor = Color.Black;
         }
         private void btnColorThree_Click(object sender, EventArgs e)
         {
-
+            ActiveForm.BackColor = Color.Red;
         }
         private void btnColorFour_Click(object sender, EventArgs e)
         {
-
+            ActiveForm.BackColor = Color.Brown;
         }
         private void btnColorFive_Click(object sender, EventArgs e)
         {
-
+            ActiveForm.BackColor = Color.White;
         }
     }
 }
