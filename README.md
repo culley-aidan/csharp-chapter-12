@@ -7,5 +7,5 @@ C# Programming Chapter 12
 - [X] - 3 - FiveColors2
 - [X] - 4 - MyFlix
 - [X] - 5 - FontSelector
-- [ ] - 8 - CarDealer
+- [X] - 8 - CarDealer
 - [ ] - ~~10 - NinasCookieSource~~
