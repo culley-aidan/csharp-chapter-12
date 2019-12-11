@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FontSelector
@@ -15,6 +9,14 @@ namespace FontSelector
         public FontSelector()
         {
             InitializeComponent();
+        }
+        private void btnFinish_Click(object sender, EventArgs e) 
+            => lblDisplay.Font = new Font(lstFonts.Items[lstFonts.SelectedIndex].ToString(), int.Parse((string)lstSize.Items[lstSize.SelectedIndex]));
+
+        private void FontSelector_Load(object sender, EventArgs e)
+        {
+            lstFonts.SelectedIndex = 0;
+            lstSize.SelectedIndex = 0;
         }
     }
 }
